@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body p,
+h1,
+h2 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.add-data {
+    width: 350px;
+    margin-top: 25px;
+    padding: 15px;
+    border: 1px solid cyan;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.add-data>div {
+    margin: 15px, 0px;
+}
+
+.add-data input {
+    width: 100%;
+}
+
+.add-data label {
+    font-size: 20px;
+}
+
+.add-data input {
+    font-size: 15px;
+    padding: 8px;
+}
+
+.car-section img {
+    width: 100%;
+}
